@@ -1,2 +1,2 @@
 import{i}from"./vendor-77e16229.js";document.querySelector(".form").addEventListener("submit",function(e){e.preventDefault();const s=Number(e.target.delay.value),r=e.target.state.value;o(s,r).then(t=>{i.success({title:"Success",message:`✅ Fulfilled promise in ${t}ms`})}).catch(t=>{i.error({title:"Error",message:`❌ Rejected promise in ${t}ms`})})});function o(e,s){return new Promise((r,t)=>{setTimeout(()=>{s==="fulfilled"?r(e):t(e)},e)})}
-//# sourceMappingURL=2-snackbar-e1bb6bfe.js.map
+//# sourceMappingURL=2-snackbar-f6c04ccf.js.map
